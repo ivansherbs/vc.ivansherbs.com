@@ -243,6 +243,10 @@ footer .subscribe .subscribe-form-2 .form-group {
     }
 }
 
+.nowrap {
+    white-space: nowrap;
+}
+
 /*------------------------------
     01. END GENERAL STYLE
 ------------------------------*/
@@ -315,7 +319,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 
 .foxapp-header {
     position: absolute;
-    top: 50px;
+    top: 15px;
     left: 0;
     right: 0;
     z-index: 999;
@@ -502,8 +506,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .slide .content-bottom h2 {
-    font-size: 90px;
-    font-weight: 700;
+    font-size: 70px;
     color: #fff;
     text-transform: uppercase;
     line-height: 90px;
@@ -528,8 +531,21 @@ footer .subscribe .subscribe-form-2 .form-group {
 
 @media (max-width: 768px) {
     .slide .content-bottom h2 {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .slide .content-bottom h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 300px) {
+    .slide .content-bottom h2 {
+        white-space: initial;
     }
 }
 
@@ -1464,7 +1480,9 @@ footer .subscribe .subscribe-form-2 .form-group {
     21. START FOOTER SECTION
 ------------------------------*/
 footer {
-    background: url('../img/footer-bg.jpg') no-repeat center center/cover;
+    background: url('../img/footer-bg.png') no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
 }
 
 footer .subscribe .subscribe-form {
