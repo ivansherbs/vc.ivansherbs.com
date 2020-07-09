@@ -613,6 +613,17 @@ footer .subscribe .subscribe-form-2 .form-group {
     font-size: 18px;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .boxes .box p {
+        font-size: 16px;
+    }
+
+    .boxes .box .circle {
+        width: 150px;
+        height: 150px;
+    }
+}
+
 @media (max-width: 767px) {
     .boxes .box {
         margin-bottom: 30px;
