@@ -558,7 +558,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 ------------------------------*/
 
 .boxes .box {
-    padding: 40px;
+    padding: 30px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -579,6 +579,13 @@ footer .subscribe .subscribe-form-2 .form-group {
 
 .boxes .box:hover:after {
     width: 100%;
+}
+
+.boxes .box .circle {
+    border-radius: 50%;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
 }
 
 .boxes .box .icon {
