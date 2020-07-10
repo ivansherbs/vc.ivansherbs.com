@@ -700,7 +700,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 
 .main-features .one-feature h5 {
     font-size: 20px;
-    line-height: 45px;
+    line-height: 30px;
     display: inline-block;
     margin: 0 10px .5rem;
 }
@@ -774,16 +774,19 @@ footer .subscribe .subscribe-form-2 .form-group {
 
 .other-features .other-features-slider {
     margin: 0 -15px;
+    padding-bottom: 30px;
 }
 
 .other-features .other-features-slider .item {
     background: #fff;
     padding: 2em 1em;
-    border-radius: 50px;
+    border-radius: 10px;
     opacity: 0.6;
     margin: 0 35px;
     outline: none;
     cursor: pointer;
+    min-height: 200px;
+    display: flex;
 }
 
 .other-features .other-features-slider .item.slick-center {
@@ -801,12 +804,35 @@ footer .subscribe .subscribe-form-2 .form-group {
 
 .other-features .other-features-slider .item h4 {
     font-size: 20px;
+    margin: auto;
 }
 
 .other-features .other-features-slider .item p {
     max-width: 300px;
     margin: 0 auto;
 }
+
+.other-features .other-features-slider .slick-dots li {
+    width: 20px;
+    height: 15px;
+}
+
+.other-features .other-features-slider .slick-dots li.slick-active {
+    width: 40px;
+}
+
+.other-features .other-features-slider .slick-dots li button:before {
+    display: none;
+}
+
+.other-features .other-features-slider .slick-dots li button {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: #fff;
+    margin: 0 auto;
+}
+
 
 /*------------------------------
     08. END OTHER FEATURES SECTION

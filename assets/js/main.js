@@ -74,6 +74,7 @@
         /*START OTHER FEATURES SLIDER JS*/
         if ($otherFeaturesSlider.length > 0) {
             $otherFeaturesSlider.slick({
+                dots: true,
                 centerMode: true,
                 centerPadding: '150px',
                 slidesToShow: 3,
