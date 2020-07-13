@@ -162,7 +162,6 @@
             $teamSlider.slick({
                 slidesToShow: 4,
                 slidesToScroll: 1,
-                dots: true,
                 infinite: false,
                 arrows: false,
                 responsive: [{

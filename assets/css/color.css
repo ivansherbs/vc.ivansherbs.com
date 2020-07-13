@@ -41,7 +41,6 @@ aside.sidebar .tags ul li a,
 .foxapp-header.sticky,
 .foxapp-header .dropdown-menu .dropdown-item:hover,
 .foxapp-header .dropdown-menu .dropdown-item.active,
-.box,
 .clients-testimonial .testimonial-slider .item .client-testimonial,
 .clients-testimonial .testimonial-slider .slick-dots li.slick-active button,
 .prices .price-table .bottom,
@@ -60,7 +59,6 @@ aside.sidebar .gray-panel h3:after {
     }
 }
 
-
 a,
 .btn-white,
 .lnr,
@@ -69,6 +67,7 @@ a,
 .clients-testimonial .testimonial-slider .item .client-info h3,
 .fun-facts .fact-box h5,
 .fun-facts .fact-box h6,
+.fun-facts .fact-box p,
 .prices .price-table .top h4,
 .prices .price-table .top h3,
 .prices .price-table .top h5,
@@ -105,6 +104,10 @@ aside.sidebar .search .form-group .form-control,
     background: rgba(60, 131, 184, 0.7);
 }
 
+.background-withcolor p {
+    color: #fff;
+}
+
 /*------------------------------
     02. END MAIN COLOR
 ------------------------------*/
@@ -129,4 +132,14 @@ footer .copyright a:hover {
 
 /*------------------------------
     03. END SECOND COLOR
+------------------------------*/
+
+/*------------------------------
+    03. START THIRD COLOR
+------------------------------*/
+.boxes .box {
+    background: #134d7e;
+}
+/*------------------------------
+    03. END THIRD COLOR
 ------------------------------*/

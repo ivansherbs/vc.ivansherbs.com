@@ -206,10 +206,13 @@ footer .subscribe .subscribe-form-2 .form-group {
     height: 50px;
 }
 
+.padding-50 {
+    padding: 50px 0;
+}
+
 .padding-100 {
     padding: 100px 0;
 }
-
 
 .lity-close {
     text-shadow: none !important;
@@ -780,7 +783,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 .other-features .other-features-slider .item {
     background: #fff;
     padding: 2em 1em;
-    border-radius: 10px;
+    border-radius: 15px;
     opacity: 0.6;
     margin: 0 35px;
     outline: none;
@@ -818,7 +821,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .other-features .other-features-slider .slick-dots li.slick-active {
-    width: 40px;
+    width: 30px;
 }
 
 .other-features .other-features-slider .slick-dots li button:before {
@@ -831,6 +834,10 @@ footer .subscribe .subscribe-form-2 .form-group {
     border-radius: 15px;
     background: #fff;
     margin: 0 auto;
+}
+
+.other-features .other-features-slider .slick-dots li.slick-active button {
+    background: #af5da4;
 }
 
 
@@ -1045,7 +1052,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 .fun-facts .fact-box {
     padding: 2em;
     background: #fff;
-    border-radius: 50px;
+    border-radius: 15px;
     margin-bottom: 1em;
 }
 
@@ -1146,13 +1153,13 @@ footer .subscribe .subscribe-form-2 .form-group {
     background: #fff;
     padding: 30px;
     margin: 0 15px;
+    margin-bottom: 50px;
     position: relative;
-    margin-bottom: 100px;
     outline: none;
 }
 
 .our-team .team-slider .person img {
-    border-radius: 50%;
+    border-radius: 15px;
     width: 130px;
 }
 
