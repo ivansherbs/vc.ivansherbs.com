@@ -63,7 +63,6 @@ a,
 .btn-white,
 .lnr,
 .section-title h3 span,
-.other-features .other-features-slider .item h4,
 .clients-testimonial .testimonial-slider .item .client-info h3,
 .fun-facts .fact-box h5,
 .fun-facts .fact-box h6,
@@ -137,6 +136,11 @@ footer .copyright a:hover {
 /*------------------------------
     03. START THIRD COLOR
 ------------------------------*/
+
+.other-features .other-features-slider .item h4 {
+    color: #134d7e;
+}
+
 .boxes .box {
     background: #134d7e;
 }
