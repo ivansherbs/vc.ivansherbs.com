@@ -250,6 +250,10 @@ footer .subscribe .subscribe-form-2 .form-group {
     white-space: nowrap;
 }
 
+.justify {
+    text-align: justify;
+}
+
 /*------------------------------
     01. END GENERAL STYLE
 ------------------------------*/
@@ -1263,7 +1267,7 @@ footer .subscribe .subscribe-form-2 .form-group {
     white-space: unset;
     text-decoration: none;
     padding: 15px 60px 15px 30px;
-    color: #2a3659;
+    color: #fff;
     position: relative;
 }
 
@@ -1303,6 +1307,7 @@ footer .subscribe .subscribe-form-2 .form-group {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
+    text-align: justify;
 }
 
 /*------------------------------

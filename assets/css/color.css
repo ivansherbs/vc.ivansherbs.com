@@ -122,11 +122,16 @@ aside.sidebar .search .form-group .form-control~.focus-border,
 .comments-form .form-group .form-control~.focus-border {
     background: #af5da4;
 }
+
 .our-team .team-slider .person:hover h3,
 .our-team .team-slider .person ul li a,
 .boxes .box:hover .lnr,
 footer .copyright a:hover {
     color: #af5da4;
+}
+
+.faq .accordion .card .card-header {
+    background-color: #af5da4;
 }
 
 /*------------------------------
