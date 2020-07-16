@@ -161,7 +161,7 @@
         /*START TEAM SLIDER JS*/
         if ($teamSlider.length > 0) {
             $teamSlider.slick({
-                slidesToShow: 4,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: false,
                 arrows: false,
