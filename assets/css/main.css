@@ -702,6 +702,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .main-features .one-feature {
+    display: flex;
     margin-bottom: 5em;
 }
 
@@ -2065,4 +2066,64 @@ aside.sidebar .tags ul li {
 
 /*------------------------------
     24. END SINGLE BLOG PAGE
+------------------------------*/
+
+
+/*------------------------------
+    25. START WHATSAPP BUTTON
+------------------------------*/
+.whatsapp-container {
+    display: inline-block;
+    bottom: 0px;
+    z-index: 9999999;
+    right: 0px;
+    left: auto;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-button {
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 12px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    background-color: rgba(255, 255, 255, .8);
+    margin-bottom: 16px;
+    margin-right: 16px;
+    margin-left: 16px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.whatsapp-container.sticky {
+    position: fixed;
+    animation: whatsapp_sticky 0.7s ease-in-out;
+}
+
+@keyframes whatsapp_sticky {
+    0% {
+        bottom: -100px;
+        opacity: 0;
+    }
+
+    50% {
+        bottom: -50px;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+/*------------------------------
+    25. END WHATSAPP BUTTON
 ------------------------------*/

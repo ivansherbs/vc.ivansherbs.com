@@ -8,6 +8,7 @@
     var $window = $(window),
         $body = $('body'),
         $foxappMenu = $('.foxapp-header'),
+        $whatsappButton = $('.whatsapp-container'),
         $countUp = $('.fact-box h5'),
         $otherFeaturesSlider = $('.other-features-slider'),
         $screenshotsSlider = $('.screenshots-slider'),
@@ -70,7 +71,18 @@
             }
         });
         /*END MENU JS*/
-        
+
+        /*START WHATSAPP JS*/
+        $window.scroll(function () {
+            var currentLink = $(this);
+            if ($(currentLink).scrollTop() > 500) {
+                $whatsappButton.addClass("sticky");
+            } else {
+                $whatsappButton.removeClass("sticky");
+            }
+        });
+        /*END WHATSAPP JS*/
+
         /*START OTHER FEATURES SLIDER JS*/
         if ($otherFeaturesSlider.length > 0) {
             $otherFeaturesSlider.slick({
@@ -81,7 +93,8 @@
                 infinite: false,
                 focusOnSelect: true,
                 arrows: false,
-                responsive: [{
+                responsive: [
+                    {
                         breakpoint: 1200,
                         settings: {
                             slidesToShow: 2,
