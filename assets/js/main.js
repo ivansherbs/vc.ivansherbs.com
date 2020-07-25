@@ -132,7 +132,6 @@
                         settings: {
                             slidesToShow: 1,
                             centerPadding: '0',
-                            arrows: true
                         }
                     },
                 ]
