@@ -11,7 +11,7 @@
         $whatsappButton = $('.whatsapp-container'),
         $countUp = $('.fact-box h5'),
         $otherFeaturesSlider = $('.other-features-slider'),
-        $screenshotsSlider = $('.screenshots-slider'),
+        $productsSlider = $('.products-slider'),
         $testimonialSslider = $('.testimonial-slider'),
         $teamSlider = $('.team-slider'),
         $logosSlider = $('.logos-slider'),
@@ -112,9 +112,10 @@
         }
         /*END OTHER FEATURES SLIDER JS*/
 
-        /*START SCREENSHOTS SLIDER JS*/
-        if ($screenshotsSlider.length > 0) {
-            $screenshotsSlider.slick({
+        /*START PRODUCTS SLIDER JS*/
+        if ($productsSlider.length > 0) {
+            $productsSlider.slick({
+                dots: true,
                 centerMode: true,
                 centerPadding: '150px',
                 slidesToShow: 3,
@@ -131,12 +132,13 @@
                         settings: {
                             slidesToShow: 1,
                             centerPadding: '0',
+                            arrows: true
                         }
                     },
                 ]
             });
         }
-        /*END SCREENSHOTS SLIDER JS*/
+        /*END PRODUCTS SLIDER JS*/
 
         /*START TESTIMONIAL SLIDER JS*/
         if ($testimonialSslider.length > 0) {
