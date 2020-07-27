@@ -23,16 +23,22 @@
   font-style: normal;
 }
 
-.lnr-antioxidant:before { content: "\f100"; }
-.lnr-body:before { content: "\f101"; }
-.lnr-motivation-fist:before { content: "\f102"; }
-.lnr-sleep:before { content: "\f103"; }
-.lnr-heart:before { content: "\f104"; }
-.lnr-stress:before { content: "\f105"; }
-.lnr-prostate-cancer:before { content: "\f106"; }
-.lnr-strong-muscle:before { content: "\f107"; }
-.lnr-tight-fist:before { content: "\f108"; }
-.lnr-fever:before { content: "\f109"; }
-.lnr-diarrhea:before { content: "\f10a"; }
-.lnr-whatsapp:before { content: "\f10b"; }
-.lnr-email:before { content: "\f10c"; }
+.lnr-whatsapp:before { content: "\f100"; }
+.lnr-email:before { content: "\f101"; }
+.lnr-sapling:before { content: "\f102"; }
+.lnr-plant:before { content: "\f103"; }
+.lnr-green-earth:before { content: "\f104"; }
+.lnr-antioxidant:before { content: "\f105"; }
+.lnr-potion:before { content: "\f106"; }
+.lnr-bear:before { content: "\f107"; }
+.lnr-mountains:before { content: "\f108"; }
+.lnr-prostate-cancer:before { content: "\f109"; }
+.lnr-stress:before { content: "\f10a"; }
+.lnr-fever:before { content: "\f10b"; }
+.lnr-sleep:before { content: "\f10c"; }
+.lnr-diarrhea:before { content: "\f10d"; }
+.lnr-heart:before { content: "\f10e"; }
+.lnr-strong-muscle:before { content: "\f10f"; }
+.lnr-tight-fist:before { content: "\f110"; }
+.lnr-motivation-fist:before { content: "\f111"; }
+.lnr-body:before { content: "\f112"; }

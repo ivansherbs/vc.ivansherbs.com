@@ -9,7 +9,7 @@
         $body = $('body'),
         $foxappMenu = $('.foxapp-header'),
         $whatsappButton = $('.whatsapp-container'),
-        $countUp = $('.fact-box h5'),
+        $countUp = $('.fact-box h5 span'),
         $otherFeaturesSlider = $('.other-features-slider'),
         $productsSlider = $('.products-slider'),
         $testimonialSslider = $('.testimonial-slider'),
