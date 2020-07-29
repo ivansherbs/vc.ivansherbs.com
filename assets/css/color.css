@@ -74,7 +74,9 @@ a,
 footer .subscribe .subscribe-form h4,
 .blog-page .blog-box:hover .blog-details h3 a,
 .single-blog-page .blog-box .post-tag-area ul li a:hover,
-.comments-container .comments-list li .reply:hover {
+.comments-container .comments-list li .reply:hover,
+.git-in-touch .contact-info .info-box a span
+{
     color: #3c83b8;
 }
 
