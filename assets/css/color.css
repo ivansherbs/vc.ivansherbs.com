@@ -148,9 +148,13 @@ footer .copyright a:hover {
     color: #134d7e;
 }
 
-.boxes .box {
-    background: #134d7e;
+.boxes .box,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #134d7e;
 }
+
 /*------------------------------
     03. END THIRD COLOR
 ------------------------------*/
