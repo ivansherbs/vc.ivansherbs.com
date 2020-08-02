@@ -597,7 +597,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .boxes .box .circle {
-    border-radius: 50%;
+    border-radius: 15px;
     display: inline-block;
     width: 200px;
     height: 200px;
