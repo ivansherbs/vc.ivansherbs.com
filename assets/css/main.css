@@ -272,6 +272,10 @@ footer .subscribe .subscribe-form-2 .form-group {
     text-align: justify;
 }
 
+.overwrap {
+    overflow-wrap: break-word;
+}
+
 /*------------------------------
     01. END GENERAL STYLE
 ------------------------------*/
@@ -2006,9 +2010,9 @@ aside.sidebar .tags ul li {
 
 .single-blog-page .blog-box .blog-details blockquote p {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
-    line-height: 30px;
+    line-height: 27px;
 }
 
 @media (max-width: 768px) {
