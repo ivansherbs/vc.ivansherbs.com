@@ -1997,10 +1997,11 @@ aside.sidebar .tags ul li {
 }
 
 .single-blog-page .blog-box .blog-details blockquote {
-    padding: 30px 45px;
+    padding: 30px 30px;
     background: rgba(158, 158, 158, 0.1);
     margin-bottom: 30px;
     border-left: 5px solid;
+    text-align: justify;
 }
 
 .single-blog-page .blog-box .blog-details blockquote p {
