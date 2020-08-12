@@ -402,7 +402,8 @@ footer .subscribe .subscribe-form-2 .form-group {
     /* margin: 20px 10px; */
     font-weight: 400;
     position: relative;
-    padding: 20px;
+    padding: 10px 0px;
+    margin: 10px 20px;
 }
 
 .foxapp-header .navbar .navbar-nav .nav-item>.nav-link:before {
@@ -414,9 +415,9 @@ footer .subscribe .subscribe-form-2 .form-group {
     height: 3px;
     background-color: #fff;
     transform: translateX(-50%);
-    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .foxapp-header .navbar .navbar-nav .nav-item>.nav-link:hover:before {
@@ -495,6 +496,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 
     .foxapp-header .navbar .navbar-nav .nav-item>.nav-link {
         padding: 10px;
+        margin: 0;
     }
 
     .foxapp-header .dropdown-menu .dropdown-item {
@@ -602,9 +604,9 @@ footer .subscribe .subscribe-form-2 .form-group {
     width: 0%;
     height: 5px;
     transform: translateX(-50%);
-    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .boxes .box:hover:after {
@@ -1540,9 +1542,9 @@ footer .subscribe .subscribe-form-2 .form-group {
     width: 0%;
     height: 3px;
     transform: translateX(-50%);
-    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .git-in-touch .form-group .form-control:focus~.focus-border {
@@ -1845,9 +1847,9 @@ aside.sidebar .search .form-group .form-control~.focus-border {
     width: 0%;
     height: 3px;
     transform: translateX(-50%);
-    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 aside.sidebar .search .form-group .form-control:focus~.focus-border {
@@ -2152,9 +2154,9 @@ aside.sidebar .tags ul li {
     width: 0%;
     height: 3px;
     transform: translateX(-50%);
-    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .comments-form .form-group .form-control:focus~.focus-border {
