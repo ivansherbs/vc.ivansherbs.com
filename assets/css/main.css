@@ -232,6 +232,14 @@ footer .subscribe .subscribe-form-2 .form-group {
     padding: 100px 0;
 }
 
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
 .lity-close {
     text-shadow: none !important;
 }
@@ -1997,6 +2005,14 @@ aside.sidebar .tags ul li {
     line-height: 25px;
     margin: 0;
     font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.single-blog-page .blog-box .blog-details ul p {
+    margin-bottom: 0px;
+}
+
+.single-blog-page .blog-box .blog-details > ul {
     margin-bottom: 30px;
 }
 
