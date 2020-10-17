@@ -2102,6 +2102,14 @@ aside.sidebar .tags ul li {
     font-size: 16px;
 }
 
+.single-blog-page .blog-box .post-tag-area .tags li:after {
+     content: ', ';
+}
+
+.single-blog-page .blog-box .post-tag-area .tags li:last-child:after {
+     content: '';
+}
+
 .comments-container {
     padding: 15px;
 }
