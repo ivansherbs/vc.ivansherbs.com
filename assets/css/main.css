@@ -2089,7 +2089,7 @@ aside.sidebar .tags ul li {
 }
 
 .single-blog-page .blog-box .post-tag-area ul li a {
-    display: block;
+    display: inline-block;
     text-align: center;
 }
 
