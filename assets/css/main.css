@@ -2106,7 +2106,8 @@ aside.sidebar .tags ul li {
      content: ', ';
 }
 
-.single-blog-page .blog-box .post-tag-area .tags li:last-child:after {
+.single-blog-page .blog-box .post-tag-area .tags li:last-child:after,
+.single-blog-page .blog-box .post-tag-area .tags li:first-child:after {
      content: '';
 }
 
