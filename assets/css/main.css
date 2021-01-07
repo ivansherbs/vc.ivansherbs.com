@@ -2043,6 +2043,10 @@ aside.sidebar .tags ul li {
     line-height: 27px;
 }
 
+.single-blog-page .blog-box .blog-details blockquote p:not(:first-child) {
+    margin-top: 10px;
+}
+
 @media (max-width: 768px) {
     .single-blog-page .blog-box .blog-details h2 {
         font-size: 30px;
