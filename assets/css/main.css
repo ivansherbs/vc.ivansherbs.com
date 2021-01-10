@@ -1742,6 +1742,13 @@ footer .copyright a {
     object-fit: cover;
 }
 
+@media (min-width: 1200px) {
+    .page-head .parent .image-container img {
+        max-height: 700px;
+        object-position: top;
+    }
+}
+
 .page-head {
     position: relative;
     padding-top: 64px;
