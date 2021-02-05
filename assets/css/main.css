@@ -2056,6 +2056,11 @@ aside.sidebar .tags ul li {
     text-align: justify;
 }
 
+.single-blog-page .blog-box .blog-details pre {
+    padding: 30px 30px;
+    background: #EEE;
+}
+
 .single-blog-page .blog-box .blog-details blockquote p {
     margin: 0;
     font-style: italic;
