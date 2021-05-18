@@ -69,31 +69,33 @@
                 <div class="collapse navbar-collapse" id="main_menu">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link anchor active" href="#slide">Home</a>
+                            <a class="nav-link anchor active" href="{{ env.RESOURCE_BASE_URL }}/">{% i18n 'home' language %}Home{% endi18n %}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor" href="#main_benefits">Voordelen</a>
+                            <a class="nav-link anchor" href="{{ env.RESOURCE_BASE_URL }}/#main_benefits">Ivan Chai</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor" href="#products">Producten</a>
+                            <a class="nav-link anchor" href="{{ env.RESOURCE_BASE_URL }}/#products">{% i18n 'products' language %}Products{% endi18n %}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor" href="#story">Ons verhaal</a>
+                            <a class="nav-link anchor" href="{{ env.RESOURCE_BASE_URL }}/#articles">{% i18n 'articles' language %}Articles{% endi18n %}</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Winkel
+                                {% i18n 'collection' language %}Collection{% endi18n %}
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item anchor" href="https://www.bol.com/" target="_blank">bol.com</a>
-                                <a class="dropdown-item anchor" href="https://www.etsy.com/" target="_blank">Etsy</a>
-                                <a class="dropdown-item anchor" href="https://www.amazon.com/" target="_blank">Amazon</a>
-                                <a class="dropdown-item anchor" href="#map">Winkels</a>
+                                <a class="dropdown-item anchor" href="https://insights.ivansherbs.com/nl/assortiment/ivans-assortiment-siberische-kruidenthee" target="_blank">{% i18n 'whole_herbs' language %}Whole herbs{% endi18n %}</a>
+                                <a class="dropdown-item anchor" href="https://insights.ivansherbs.com/nl/assortiment/ivans-assortiment-etherische-olien" target="_blank">{% i18n 'essential_oils' language %}Essential oils{% endi18n %}</a>
+                                <a class="dropdown-item anchor" href="https://insights.ivansherbs.com/nl/assortiment/ivans-assortiment-supplementen" target="_blank">{% i18n 'supplements' language %}Supplements{% endi18n %}</a>
+                                <a class="dropdown-item anchor" href="https://insights.ivansherbs.com/nl/assortiment/ivans-assortiment-matcha" target="_blank">{% i18n 'matcha' language %}Matcha{% endi18n %}</a>
+                                <a class="dropdown-item anchor" href="https://insights.ivansherbs.com/nl/assortiment/exclusieve-aanbiedingen" target="_blank">{% i18n 'special_offers' language %}Special offers{% endi18n %}</a>
+                                <a class="dropdown-item anchor" href="https://insights.ivansherbs.com/nl/assortiment/exclusieve-geschenkdoos" target="_blank">{% i18n 'giftset' language %}Giftset{% endi18n %}</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor" href="#contact">Contact</a>
+                            <a class="nav-link anchor" href="../#facts">Eco7</a>
                         </li>
                     </ul>
                 </div>
@@ -109,8 +111,8 @@
                 <div class="row align-items-center">
                     <div class="col-md-6" data-aos="fade-right">
                         <h2 class="nowrap logo-text">IVAN'S HERBS</h2>
-                        <p>Verzorg dagelijks lichaam en geest met kruiden uit Siberië</p>
-                        <a href="#" class="btn btn-primary btn-white shadow btn-theme"><span>Ontdek meer</span></a>
+                        <p>Herbal Remedies | Herbs from Siberia</p>
+                        <a href="https://insights.ivansherbs.com/nl/assortiment/exclusieve-geschenkdoos" target="_blank"> class="btn btn-primary btn-white shadow btn-theme"><span>{% i18n 'giftset' language %}Giftset{% endi18n %}</span></a>
                     </div>
                     <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
                         <img src="assets/img/front-tube.png" class="img-fluid d-block mx-auto" alt="">
@@ -126,9 +128,9 @@
         <div class="container">
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>7 Gezondheids<span class="d-md-none">-</span>voordelen</h3>
+                    <h3>Siberische <span>kruidenthee</span></h3>
                     <div class="space-25"></div>
-                    <p>Ivan Chai heeft een krachtige impact op de gezondheid en algehele gemoedstoestand.</p>
+                    <p>Goed voor lichaam en geest.</p>
                     <div class="space-25"></div>
                 </div>
             </div>
@@ -157,7 +159,7 @@
                     <div class="one-feature" data-aos="fade-right" data-aos-delay="1300">
                         <span class="lnr lnr-body"></span>
                         <br class="d-none d-lg-inline">
-                        <h5>Verbetert de slaap</h5>
+                        <h5>Verbetert de nachtrust</h5>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
@@ -188,7 +190,18 @@
     <!-- End Benefits -->
 
     <!-- Start Boxes -->
-    <section id="boxes" class="boxes padding-100">
+    <section id="main_benefits" class="main-features padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
+                    <h3>Collectie <span>artikelen</span></h3>
+                    <div class="space-25"></div>
+                    <p>Speciaal geselecteerd voor de lezers van Ivan's Insights... </p>
+                    <div class="space-25"></div>
+                </div>
+            </div>
+        <div>
+    <id="boxes" class="boxes padding-100">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-12">
@@ -196,7 +209,7 @@
                         <div class="box" data-aos="fade-up">
                             <div class="circle" style="background-image: url(assets/img/home_circle_health-benefits.jpg);"></div>
                             <div class="space-20"></div>
-                            <p>De 7 gezondheidsvoordelen van <span class="nowrap">Ivan Chai</span></p>
+                            <p>Kruidengeneeskunde<span class="nowrap"></span></p>
                         </div>
                     </a>
                 </div>
@@ -205,7 +218,7 @@
                         <div class="box" data-aos="fade-up" data-aos-delay="200">
                             <div class="circle" style="background-image: url(assets/img/home_circle_herbs-are-medicine.jpg);"></div>
                             <div class="space-20"></div>
-                            <p>Kruiden zijn ook medicijnen<br>&nbsp;</p>
+                            <p>Ivan Chai<br>&nbsp;</p>
                         </div>
                     </a>
                 </div>
@@ -214,7 +227,7 @@
                         <div class="box" data-aos="fade-up" data-aos-delay="400">
                             <div class="circle" style="background-image: url(assets/img/home_circle_history.jpg);"></div>
                             <div class="space-20"></div>
-                            <p>De culturele geschiedenis van <span class="nowrap">Ivan Chai</span></p>
+                            <p>45+<span class="nowrap"></span></p>
                         </div>
                     </a>
                 </div>
@@ -231,7 +244,7 @@
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
                     <h3><span>Producten</span></h3>
                     <div class="space-25"></div>
-                    <p>Ivan Chai is de natuurlijke oplossing als alternatief op farmaceutische medicijnen.</p>
+                    <p>Op zoek naar veilige producten zonder bijwerkingen, rechtstreeks uit de natuur en bewezen effectief middels klinisch onderzoek? </p>
                     <div class="space-50"></div>
                 </div>
             </div>
@@ -250,11 +263,11 @@
             <div class="row padding-50">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
                     <div class="space-50"></div>
-                    <h3>Smaakbeleving</h3>
+                    <h3>✔ Geweldige smaak</h3>
                     <div class="space-25"></div>
-                    <p>Ivan Chai heeft een zeer zachte smaak die vergelijkbaar is met traditionele zwarte thee, echter met een van nature licht zoete smaak.</p>
+                    <p>Ivan Chai heeft een aardse en zoete smaak die vergelijkbaar is met traditionele zwarte thee. Wordt niet bitter. Veilig voor kinderen. Deze Siberische kruidenthee is tevens cafeïnevrij.</p>
                     <div class="space-100"></div>
-                    <a href="https://www.bol.com/" target="_blank" class="btn btn-primary shadow btn-theme"><span>Naar bol.com</span></a>
+                    <a href="https://insights.ivansherbs.com/nl/assortiment/ivans-assortiment-bestsellers" target="_blank" class="btn btn-primary shadow btn-theme"><span>>{% i18n 'best_sellers' language %}Best sellers{% endi18n %}</span></a>
                 </div>
             </div>
         </div>
@@ -266,7 +279,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>Bekijk de <span>video</span></h3>
+                    <h3>Bekijk <span>video</span></h3>
                     <div class="space-25"></div>
                     <p>De oorsprong en verwerking van Ivan Chai</p>
                     <div class="space-50"></div>
@@ -321,66 +334,56 @@
                     <img src="assets/img/front-tube.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-6" data-aos="fade-zoom-in" data-aos-delay="200">
-                    <h3>17 Gezondheids<span class="d-lg-none">-</span>problemen</h3>
-                    <p>Ivan Chai kan als <em>preventieve</em> behandeling worden gebruikt tegen de volgende 17 gezondheidsproblemen:</p>
+                    <h3>Waarom <span>Ivan Chai?</span></h3>
+                    <p>Voor antwoorden bekijk onze uitgelichte statistieken.</p>
                     <div class="space-50"></div>
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-delay="300">
-                            <div class="why-us-icon">
-                                <span class="lnr lnr-body"></span>
-                                <p>Infecties</p>
-                                <p>Verkoudheid</p>
-                                <p>Griep</p>
-                                <p>Zwak immuunsysteem</p>
-                            </div>
-                            <div class="space-10"></div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-delay="400">
-                            <div class="why-us-icon">
-                                <span class="lnr lnr-motivation-fist"></span>
-                                <p>Keelontsteking</p>
-                                <p>Blaasontsteking</p>
-                                <p>Slijmbeursontsteking</p>
-                                <p>Menstruatiepijn</p>
-                            </div>
-                            <div class="space-25"></div>
-                        </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-delay="500">
                             <div class="why-us-icon">
                                 <span class="lnr lnr-heart"></span>
-                                <p>Hart- en vaatziekten</p>
-                            </div>
-                            <div class="space-25"></div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-delay="600">
-                            <div class="why-us-icon">
-                                <span class="lnr lnr-sleep"></span>
-                                <p>Slaapproblemen</p>
-                            </div>
-                            <div class="space-25"></div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-delay="700">
-                            <div class="why-us-icon">
-                                <span class="lnr lnr-stress"></span>
-                                <p>Stress</p>
-                                <p>Angst</p>
-                                <p>Burnout klachten</p>
+                                <p><b>Hart- en vaatziekten:</b><br>1 op de 4 vrouwen overlijdt aan een hart- of vaatziekte.</p>
                             </div>
                             <div class="space-25"></div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-delay="800">
                             <div class="why-us-icon">
                                 <span class="lnr lnr-prostate-cancer"></span>
-                                <p>Prostaatontsteking</p>
-                                <p>Benigne Prostaat Hyperplasie</p>
-                                <p>Prostaatkanker</p>
+                                <p><b>Prostaatklachten:</b><br>30% van de mannen boven de 50 jaar heeft last van zijn prostaat.</p>
+                            </div>
+                            <div class="space-25"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-delay="600">
+                            <div class="why-us-icon">
+                                <span class="lnr lnr-sleep"></span>
+                                <p><b>Slaapproblemen:</b><br>25% van de Nederlanders slaapt slecht.</p>
+                            </div>
+                            <div class="space-25"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="why-us-icon">
+                                <span class="lnr lnr-motivation-fist"></span>
+                                <p><b>Menstruatiepijn:</b><br>bij een gezonde menstruatiecyclus komt er al gauw 1 theekopje aan bloed uitzetten.</p>
+                            </div>
+                            <div class="space-25"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="why-us-icon">
+                                <span class="lnr lnr-body"></span>
+                                <p><b>Infectie:</b><br>3 op de 4 vrouwen krijgt last van een vaginale schimmelinfectie.</p>
+                            </div>
+                            <div class="space-10"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-delay="700">
+                            <div class="why-us-icon">
+                                <span class="lnr lnr-stress"></span>
+                                <p><b>Angst:</b><br>naar schatting heeft circa 20% van de bevolking te maken gehad met een angststoornis.</p>
                             </div>
                             <div class="space-25"></div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-delay="900">
                             <div class="why-us-icon">
                                 <span class="lnr lnr-diarrhea"></span>
-                                <p>Buikgriep</p>
+                                <p><b>Buikgriep:</b><br>15-20% van de bevolking heeft last van het prikkelbare darm syndroom. 75% van de patiënten is vrouw...</p>
                             </div>
                         </div>
                     </div>
@@ -395,28 +398,33 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>Lees onze <span class="white">artikelen</span></h3>
+                    <h3>Ivan's <span class="white">Insights</span></h3>
                     <div class="space-25"></div>
-                    <p>Ivan Chai is geen wondermiddel, wel draagt het bij aan het versterken van de gezondheid en algehele gemoedstoestand. Ontdek meer over het gebruik van kruiden om ziekten te verminderen en gezondheidsproblemen te verzorgen.</p>
-                    <div class="space-50"></div>
+                    <p>Een online magazine om alledaagse problemen (fysiek dan wel mentaal) bespreekbaar te maken. Benieuwd naar de inzichten?</p>
+                    <div class="space-25"></div>
+                    <p>Ivan Chai | Kruidengeneeskunde | Man | Vrouw | 45+ | Buikkrampen | Community Building | Eyeopener | Geschiedenis | Gevoel | Gezin | Infectie | Kinderen | Levensstijl | Mentale Klachten | Medicijn | Moeder | Nachtrust | Natuur | Ontsteking | Ouderdom | Prostaat | Relatie | Sport | Stress | Urinewegen | Weerstand | Werk | Ziekten</p>
+                    <div class="space-75"></div>
                 </div>
             </div>
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="other-features-slider" data-aos="fade-up">
-                        <a href="https://insights.ivansherbs.com/nl/moderne-kruidengeneeskunde"
+                        <a href="https://insights.ivansherbs.com/nl/artikel/ontdek-7-voordelen" a></a>
                             <div class="item text-center" style="background-image: url(assets/img/home_articles_herbal-medicine.jpg);">
-                                <h4>Moderne kruidengeneeskunde</h4>
+                                <h4>Ivan Chai: Ontdek 7 voordelen</h4>
                             </div>
                         </a>
                         <div class="item text-center" style="background-image: url(assets/img/home_articles_herbs-before-medicine.jpg);">
-                            <h4>Kruiden voor medicijnen</h4>
+                            <h4>"Kruiden uit Siberië als medicijnen zonder bijwerkingen</h4>
                         </div>
                         <div class="item text-center" style="background-image: url(assets/img/home_articles_herbs-after-medicine.jpg);">
-                            <h4>Veilig gebruik van kruiden</h4>
+                            <h4>De oorsprong van Ivan Chai</h4>
                         </div>
                         <div class="item text-center" style="background-image: url(assets/img/home_articles_safe-use-of-herbs.jpg);">
-                            <h4>Kruiden na medicijnen</h4>
+                            <h4>Prostaatklachten?</h4>
+                        </div>
+                        <div class="item text-center" style="background-image: url(assets/img/home_articles_safe-use-of-herbs.jpg);">
+                            <h4>Last van een blaasontsteking?</h4>
                         </div>
                     </div>
                 </div>
@@ -424,7 +432,7 @@
             <div class="row align-items-center">
                 <div class="text-center col-12">
                     <div class="space-100"></div>
-                    <a href="artikelen" class="btn btn-primary shadow btn-theme"><span>Alle artikelen</span></a>
+                    <a href="https://insights.ivansherbs.com/nl/" class="btn btn-primary shadow btn-theme"><span>{% i18n 'all_articles' language %}All articles{% endi18n %}</span></a>
                 </div>
             </div>
         </div>
@@ -436,11 +444,11 @@
         <div class="container">
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>Over <span>Ivan's Herbs</span></h3>
+                    <h3>Ivan's Herbs | <span>Over ons bedrijf</span></h3>
                     <div class="space-25"></div>
-                    <p>Verzorg dagelijks lichaam en geest met kruiden uit Siberië.</p>
+                    <p></p>
                     <div class="space-15"></div>
-                    <p class="justify">Wij geloven in het aanbieden van producten die een krachtige impact hebben op de gezondheid, algehele gemoedstoestand en in beperkte mate van invloed zijn op het milieu. Ons sociaal en verantwoordelijk gedrag richt zich op de specifieke behoefte van elke op gezondheid gerichte- en vooruitstrevende consument.</p>
+                    <p class="justify">Wij geloven in het aanbieden van producten met krachtige impact op de gezondheid, algehele gemoedstoestand en die in beperkte mate van invloed zijn op het milieu. Ons sociaal en verantwoordelijk gedrag richt zich op de volgende drie punten | Introduceren kruiden uit Siberië | Informeren | Community building </p>
                     <div class="space-50"></div>
                 </div>
             </div>
@@ -453,7 +461,7 @@
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapse_1" aria-expanded="false" aria-controls="collapse_1">
-                                        Introduceren natuurlijke oplossingen
+                                        Introduceren kruiden uit Siberië
                                     </button>
                                 </h5>
                             </div>
@@ -462,23 +470,7 @@
                                 data-parent="#faqAccordion">
                                 <div class="card-body">
                                     <p>
-                                        Onze toevoerlijn van kruiden vanuit de Altai zijn een alternatief op medicijnen gemaakt door de
-                                        zwaar vervuilde farmaceutische industrie. De opeenvolging van mislukkingen wat typerend is voor
-                                        de farmaceutische industrie, zoekende naar het wondermiddel in een complexe en besloten omgeving
-                                        waarbij patenten de norm zetten tot verandering, dienen vergezeld te worden door een eenvoudig
-                                        tegengeluid in de vorm van Siberische kruidenthee met gezondheidsvoordelen.
-                                    </p>
-                                    <p>
-                                        De introductie van eenvoudige natuurlijke oplossingen voor gezondheidsproblemen behoren
-                                        geïntegreerd te worden in de hedendaagse samenleving. Onze waarden richten zich hierbij op de
-                                        samenwerkingsverbanden die worden gevormd met zogenaamde Siberische ecodorpen. De ecodorp bewoners
-                                        oogsten onze kruiden met de hand in de ongerepte natuur waar ze toezien op een schoon en uiterst
-                                        duurzaam productieproces. Om onze duurzaamheid te uiten naar onze klanten richten we ons op
-                                        klimaatneutrale verpakkingen en de vermindering van onze eigen CO2 uitstoot in het dagelijks leven.
-                                        Wij zijn op zoek naar meer samenwerkingsverbanden met gelijkgestemde bedrijven en streven ernaar
-                                        ons product zo milieuvriendelijk mogelijk te vervoeren. Wij steunen groeperingen die zich inzetten
-                                        tegen plastic en voor een schoner milieu. Dat is de reden waarom we overgaan op verpakkingsmaterialen
-                                        die eeuwig meegaan of op een natuurlijke wijze volledig afbreken.
+                                        Wij geloven in het aanbieden van producten afkomstig uit de traditionele kruidengeneeskunde. Onze toevoerlijn van kruiden zijn een alternatief of aanvulling op medicijnen gemaakt door de zwaar vervuilde farmaceutische industrie. De farmaceutische industrie wordt getypeerd door een opeenvolging van mislukkingen al zoekende naar een wondermiddel in een complexe en besloten omgeving waarbij patenten de norm zetten tot verandering. Deze genormaliseerde manier van werken dient daarom vergezeld te worden door een eenvoudig tegengeluid. Dit doen wij door het aanbieden van kruiden uit Siberië. Goed voor lichaam en geest.
                                     </p>
                                 </div>
                             </div>
@@ -488,7 +480,7 @@
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
-                                        Informeren en onderwijze
+                                        Informeren
                                     </button>
                                 </h5>
                             </div>
@@ -496,21 +488,7 @@
                                 data-parent="#faqAccordion">
                                 <div class="card-body">
                                     <p>
-                                        Wij hebben als doel het verbeteren van jouw kennis over de ontdekte gezondheidsvoordelen die
-                                        beschikbaar zijn in kruiden. Deze ontdekte gezondheidsvoordelen worden door Het
-                                        'European Medicines Agency' (EMA) onderschreven. Dit onafhankelijke instituut wat zich richt op het
-                                        ondersteunen van patiënten, medische specialisten, academici, farmaceutische bedrijven, medicijn
-                                        ontwikkelaars en gezondheid beleidsmakers beslaat 7 commissies waarbij de
-                                        'Committee on Herbal Medicinal Products' (CHMP) zich volledig toewijdt aan het verzamelen en
-                                        beoordelen van wetenschappelijke gegevens over kruiden.
-                                    </p>
-                                    <p>
-                                        Wij bieden het CHMP steun door het opzetten van Ivan's Herbs; waarbij wij het gebruik van kruiden
-                                        rechtstreeks uit de natuur centraal stellen voor het oplossen van gezondheidsproblemen. Openheid
-                                        van zaken wordt geboden in de vorm van een CHMP EU-monografie waarbij veiligheid voorop staat bij
-                                        gebruik van kruiden gebaseerd op moderne dan wel traditionele kruidenkunde. Kleine veranderingen in
-                                        alledaagse routines kunnen op korte dan wel lange termijn winst opleveren voor de samenleving;
-                                        waarbij de vertrouwde smaakbeleving wordt gespaard.
+                                        Wij hebben als doel het verbeteren van jou kennis over fysieke danwel lichamelijke problemen. Dit streven wij door het schrijven van artikelen over lichaam en geest. De adviezen die wij geven over onze producten zijn gebasseerd op hedendaagse onderzoeken, waarvan de meerderheid effectief bewezen door klinische onderzoeken. Ontdek de inzichten en laat je informeren.
                                     </p>
                                 </div>
                             </div>
@@ -528,20 +506,18 @@
                                 data-parent="#faqAccordion">
                                 <div class="card-body">
                                     <p>
-                                        Wij zijn er niet alleen voor de vooruitstrevende- en op gezondheid gerichte consument in West Europa.
-                                        Wij steunen ruimdenkende gemeenschappen die zich richten op mens en milieu duizenden kilometers
-                                        afgelegen van de moderne samenleving. Deze bewoners van zogenaamde ecodorpen streven naar een eigen
-                                        levensstijl zo dicht mogelijk bij de natuur. Hierbij staat het opbouwen van hun bestaan in de
-                                        ongerepte natuur van de Altaj centraal.
-                                    </p>
+                                        Onze waarden richten zich tevens op samenwerkingsverbanden die worden gevormd met zogenaamde Siberische ecodorpen. Wij steunen deze ruimdenkende gemeenschappen die zich richten op mens en milieu. Eén van deze ecodorpen is Chazhaevka. Om hun utopie tot stand te brengen hebben zij zich duizenden kilometers verwijderd van de moderne samenleving. Wat is de reden van deze afzondering?
                                     <p>
-                                        Graag ondersteunen wij deze denkwijzen door samenwerkingsverbanden te vormen om hun levensstijl te
-                                        behouden. Door het steunen van deze gemeenschappen dragen we bij aan onze samenleving door hun
-                                        waarden waarin gezondheid en natuur centraal staan in acht te nemen, voor ons eigen bedrijf als voor
-                                        onze klanten. Industrieën verstoren continu de norm. Onze klanten kunnen op ons vertrouwen hen te
-                                        informeren over natuurlijke geneesmiddelen die kunnen worden gebruikt met of in plaats van
-                                        farmaceutische medicijnen. Ons advies aan de farmaceutische industrie is om te blijven ontdekken.
-                                        Wij zullen dat zeker ook doen.
+                                    </p>
+Deze bewoners streven naar een unieke levensstijl zo dicht mogelijk bij de natuur. Om onze duurzaamheid te uiten naar deze Siberische ecodorpen en onze klanten richten wij ons op het volgende.
+
+* Wij maken gebruik van klimaatneutrale verpakkingen.
+* Wij verminderen onze eigen CO2 uitstoot in het dagelijks leven.
+* Wij streven ernaar ons product zo milieuvriendelijk mogelijk te vervoeren.
+* Wij steunen groeperingen die zich inzetten tegen plastic en voor een schoner milieu.
+* Wij zijn altijd op zoek naar samenwerkingsverbanden met gelijkgestemde bedrijven.
+
+Om daad bij woord te voegen zijn we overgegaan op verpakkingsmaterialen die eeuwig meegaan. Of op een natuurlijke wijze volledig afbreken.
                                     </p>
                                 </div>
                             </div>
@@ -564,7 +540,7 @@
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
                     <h3>Bijkomende <span class="white">voordelen</span></h3>
                     <div class="space-25"></div>
-                    <p>Onze producten hebben meerdere bijkomende voordelen die bijdrage aan een schonere wereld.</p>
+                    <p>Producten volgens Eco7 Standaard en vrij van ontbossing.</p>
                     <div class="space-50"></div>
                 </div>
             </div>
@@ -573,35 +549,56 @@
                     <div class="fact-box text-center count-down" data-aos="fade-up" data-aos-delay="400">
                         <span class="lnr lnr-mountains"></span>
                         <h5><span>100</span>%</h5>
-                        <h6>Groeit in<br>de wildernis</h6>
+                        <h6>Kruiden groeien<br>in de wildernis...</h6>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="fact-box text-center count-up" data-aos="fade-up" data-aos-delay="800">
                         <span class="lnr lnr-green-earth"></span>
                         <h5><span>100</span>%</h5>
-                        <h6>Duurzaam productieproces</h6>
+                        <h6>en staan in bloei <br> wanneer geplukt.</h6>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12 count-up">
                     <div class="fact-box text-center" data-aos="fade-up" data-aos-delay="1200">
                         <span class="lnr lnr-potion"></span>
                         <h5><span>100</span>%</h5>
-                        <h6>Vrij van<br>chemicaliën</h6>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-12 count-up">
-                    <div class="fact-box text-center" data-aos="fade-up" data-aos-delay="1600">
-                        <span class="lnr lnr-antioxidant"></span>
-                        <h5><span>100</span>%</h5>
-                        <h6>Recyclebare<br>verpakking</h6>
+                        <h6>Vrij van<br>chemicaliën...</h6>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12 count-up">
                     <div class="fact-box text-center" data-aos="fade-up" data-aos-delay="1600">
                         <span class="lnr lnr-sapling"></span>
                         <h5><span>100</span>%</h5>
-                        <h6>Met de hand<br>geplukt</h6>
+                        <h6>en met de<br>hand geplukt.</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 count-up">
+                    <div class="fact-box text-center" data-aos="fade-up" data-aos-delay="1600">
+                        <span class="lnr lnr-green-earth"></span>
+                        <h5><span>100</span>%</h5>
+                        <h6>Duurzaam<br>productieproces</h6>
+                    </div>
+                </div>
+                        <div class="col-lg-3 col-md-6 col-12 count-up">
+                    <div class="fact-box text-center" data-aos="fade-up" data-aos-delay="1600">
+                        <span class="lnr lnr-antioxidant"></span>
+                        <h5><span>100</span>%</h5>
+                        <h6>Geen aroma’s<br>toegevoegd</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 count-up">
+                    <div class="fact-box text-center" data-aos="fade-up" data-aos-delay="1600">
+                        <span class="lnr lnr-antioxidant"></span>
+                        <h5><span>100</span>%</h5>
+                        <h6>Vrij van<br>dierenleed</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 count-up">
+                    <div class="fact-box text-center" data-aos="fade-up" data-aos-delay="1600">
+                        <span class="lnr lnr-antioxidant"></span>
+                        <h5><span>100</span>%</h5>
+                        <h6>Vrij van<br>ontbossing</h6>
                     </div>
                 </div>
             </div>
@@ -609,83 +606,29 @@
     </section>
     <!-- End Fun Facts -->
 
-    <!-- Start Our Story -->
+    <!-- Start Our Manifest -->
     <section id="story" class="our-team padding-100 background-fullwidth background-fixed"
         style="background-image: url(assets/img/home_background_our-story.jpg);">
         <div class="container">
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>Ons <span>verhaal</span></h3>
+                    <h3>Ivan's <span>quote of the day...</span></h3>
                     <div class="space-25"></div>
-                    <p><em>“De traditionele kruidengeneeskunde heeft de deur geopend naar het gebruik van eenvoudige natuurlijke oplossingen die de kans op ziekten verkleinen en gezondheidsproblemen verzorgen”</em></p>
+                    <p>Drink Ivan Chai als alternatief of aanvulling op medicijnen uit de farmaceutishe industrie; als levenselixer, maar óók gewoon lekker ter ontspanning.</p>
                     <div class="space-50"></div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slider" data-aos="fade-up">
-                        <div class="item person text-center">
-                            <img src="assets/img/team_michael.jpg" class="img-fluid d-block mx-auto" alt="">
-                            <div class="space-20"></div>
-                            <h3>Michael Koch</h3>
-                            <div class="space-20"></div>
-                            <h5>Founder<br>&<br><span class="nowrap">Herbal Tea Master</span></h5>
-                            <div class="space-20"></div>
-                            <p class="justify"><strong>Michael Koch</strong> ontdekte in <strong>2017</strong> voor het eerst de gezondheidsvoordelen van <strong class="nowrap">Ivan Chai</strong>. Destijds woonde hij in Moskou; waar hij kennis maakte met het <strong>krachtige effect</strong> wat deze <strong>Siberische kruidenthee</strong> heeft op het <strong>menselijk lichaam</strong>.</p>
-                            <ul>
-                                <li>
-                                    <a target="_blank" href="https://www.facebook.com/michael.koch">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" href="https://www.instagram.com/thekizoch">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" href="https://twitter.com/thekizoch">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" href="https://www.linkedin.com/in/michael-c-koch">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Our Story  -->
-
-    <!-- Start Conclusion -->
-    <section id="conclusion" class="git-in-touch padding-100">
-        <div class="container">
-            <div class="row">
-                <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>Conclusie</h3>
-                    <div class="space-25"></div>
-                    <p class="justify">We leven in een wereld die nooit eerder zo stabiel en toegankelijk is ervaren. Toch ervaren we die wereld in een toenemende mate als chaotisch. We dwingen je daarom niet om alle gezondheidsproblemen aan te pakken, kies je gevechten.</p>
-                    <div class="space-15"></div>
-                    <p class="justify">Onze klanten kunnen op ons vertrouwen hen te informeren over natuurlijke geneesmiddelen die kunnen worden gebruikt met of in plaats van farmaceutische medicijnen. Ons advies aan de farmaceutische industrie is om te blijven ontdekken. Wij zullen dat zeker ook doen.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Conclusion -->
+               </section>
+    <!-- End Our Manifest  -->
 
     <!-- Start Contact -->
     <section id="contact" class="git-in-touch padding-100">
         <div class="container">
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>Heb <span>je</span> ons nodig?</h3>
+                    <h3>Behoefte aan contact?</h3>
                     <div class="space-25"></div>
-                    <p>We helpen je graag verder.</p>
+                    <p>Wij zijn goed te bereiken</p>
                     <div class="space-50"></div>
                 </div>
             </div>
@@ -710,14 +653,6 @@
         </div>
     </section>
     <!-- End Contact -->
-
-    <!-- Start Map -->
-    <section id="map" class="map">
-        <iframe
-            src="https://www.google.com/maps/d/u/1/embed?mid=1dbPtnz8oaiIwUZkpEv31XFWvv88ZdiAV"
-            style="border:0" allowfullscreen></iframe>
-    </section>
-    <!-- End Map -->
 
     <!-- Start Footer -->
     <footer class="padding-100 pb-0">
@@ -744,19 +679,19 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="widget">
-                            <h6>Quick Links</h6>
+                            <h6>Navigatie</h6>
                             <ul>
                                 <li>
-                                    <a href="#">Home</a>
+                                    <a class="nav-link anchor active" href="{{ env.RESOURCE_BASE_URL }}/">{% i18n 'home' language %}Home{% endi18n %}</a>
                                 </li>
-                                <li>
-                                    <a href="#story">Ons verhaal</a>
+                                <li class="nav-item">
+                                    <a class="nav-link anchor" href="{{ env.RESOURCE_BASE_URL }}/#main_benefits">Ivan Chai</a>
                                 </li>
-                                <li>
-                                    <a href="#main_benefits">Voordelen</a>
+                                <li class="nav-item">
+                                    <a class="nav-link anchor" href="{{ env.RESOURCE_BASE_URL }}/#products">{% i18n 'products' language %}Products{% endi18n %}</a>
                                 </li>
-                                <li>
-                                    <a href="#products">Producten</a>
+                                <li class="nav-item">
+                                    <a class="nav-link anchor" href="{{ env.RESOURCE_BASE_URL }}/#articles">{% i18n 'articles' language %}Articles{% endi18n %}</a>
                                 </li>
                             </ul>
                         </div>
@@ -782,7 +717,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="widget">
-                            <h6>Quick Contact</h6>
+                            <h6>Contact?</h6>
                             <ul>
                                 <li>
                                     <span>WhatsApp:</span>
@@ -805,15 +740,15 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-4">
-                        <p>All rights reserved © <a href="#">Ivan's Herbs</a>, 2020</p>
+                        <p>All rights reserved © <a href="#">Ivan's Herbs,</a> 2020</p>
                     </div>
                     <div class="offset-md-4 col-md-4">
                         <ul class="nav justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Terms and Conditions</a>
+                                <a class="nav-link" href="http://insights.ivansherbs.com/nl/over/legal/gebruiksvoorwaarden">Terms and Conditions</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Privacy Policy</a>
+                                <a class="nav-link" href="http://insights.ivansherbs.com/nl/over/legal/privacykennisgeving">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
