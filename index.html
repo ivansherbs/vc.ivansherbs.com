@@ -1013,15 +1013,15 @@
                         </div>
                     </div>
                     <div class="space-25"></div>
-<!-- Start G.translate-->
-                        <select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="nl|bg">Bulgarian</option><option value="nl|ca">Catalan</option><option value="nl|hr">Croatian</option><option value="nl|cs">Czech</option><option value="nl|da">Danish</option><option value="nl|nl">Dutch</option><option value="nl|en">English</option><option value="nl|et">Estonian</option><option value="nl|fi">Finnish</option><option value="nl|fr">French</option><option value="nl|gl">Galician</option><option value="nl|ka">Georgian</option><option value="nl|de">German</option><option value="nl|el">Greek</option><option value="nl|hu">Hungarian</option><option value="nl|is">Icelandic</option><option value="nl|ga">Irish</option><option value="nl|it">Italian</option><option value="nl|lv">Latvian</option><option value="nl|lt">Lithuanian</option><option value="nl|mk">Macedonian</option><option value="nl|mt">Maltese</option><option value="nl|no">Norwegian</option><option value="nl|pl">Polish</option><option value="nl|pt">Portuguese</option><option value="nl|ro">Romanian</option><option value="nl|ru">Russian</option><option value="nl|sr">Serbian</option><option value="nl|sk">Slovak</option><option value="nl|sl">Slovenian</option><option value="nl|es">Spanish</option><option value="nl|sv">Swedish</option><option value="nl|tr">Turkish</option><option value="nl|uk">Ukrainian</option><option value="nl|cy">Welsh</option></select>
-                        <script type="text/javascript">
-                        /* <![CDATA[ */
-                        function openTab(url) {var form=document.createElement('form');form.method='post';form.action=url;form.target='_blank';document.body.appendChild(form);form.submit();}
-                        function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='nl';openTab(location.protocol+'//'+(lang == 'nl' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search);}
-                        /* ]]> */
-                        </script>
-<!-- End G.translate-->
+<!-- Start GTranslate-->
+<select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="nl|bg">Bulgarian</option><option value="nl|ca">Catalan</option><option value="nl|hr">Croatian</option><option value="nl|cs">Czech</option><option value="nl|da">Danish</option><option value="nl|nl">Dutch</option><option value="nl|en">English</option><option value="nl|et">Estonian</option><option value="nl|fi">Finnish</option><option value="nl|fr">French</option><option value="nl|gl">Galician</option><option value="nl|ka">Georgian</option><option value="nl|de">German</option><option value="nl|el">Greek</option><option value="nl|hu">Hungarian</option><option value="nl|is">Icelandic</option><option value="nl|ga">Irish</option><option value="nl|it">Italian</option><option value="nl|lv">Latvian</option><option value="nl|lt">Lithuanian</option><option value="nl|mk">Macedonian</option><option value="nl|mt">Maltese</option><option value="nl|no">Norwegian</option><option value="nl|pl">Polish</option><option value="nl|pt">Portuguese</option><option value="nl|ro">Romanian</option><option value="nl|ru">Russian</option><option value="nl|sr">Serbian</option><option value="nl|sk">Slovak</option><option value="nl|sl">Slovenian</option><option value="nl|es">Spanish</option><option value="nl|sv">Swedish</option><option value="nl|tr">Turkish</option><option value="nl|uk">Ukrainian</option><option value="nl|cy">Welsh</option></select>
+<script type="text/javascript">
+/* <![CDATA[ */
+function openTab(url) {var form=document.createElement('form');form.method='post';form.action=url;form.target='_blank';document.body.appendChild(form);form.submit();}
+function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.pathname.split('/')[1];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='nl';if(lang == 'nl')openTab(location.protocol+'//'+location.host+location.pathname.replace('/'+plang+'/', '/')+location.search);else openTab(location.protocol+'//'+location.host+'/'+lang+location.pathname.replace('/'+plang+'/', '/')+location.search);}
+/* ]]> */
+</script>
+<!-- End GTranslate-->
                             </div>
                         </div>
                     </div>
