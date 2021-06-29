@@ -1028,15 +1028,13 @@
                         </div>
                     </div>
                     <div class="space-25"></div>
-<!-- Start GTranslate-->
-<script type="text/javascript">
-    /* <![CDATA[ */
-    function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.pathname.split('/')[1];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='nl';if(lang == 'nl')location.href=location.protocol+'//'+location.host+location.pathname.replace('/'+plang+'/', '/')+location.search;else location.href=location.protocol+'//'+location.host+'/'+lang+location.pathname.replace('/'+plang+'/', '/')+location.search;}
-    /* ]]> */
-    </script>
-<!-- End GTranslate-->
-                            </div>
-                        </div>
+                    <!-- Start GTranslate-->
+                        <script type="text/javascript">
+                        /* <![CDATA[ */
+                        function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='nl';location.href=location.protocol+'//'+(lang == 'nl' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+                         /* ]]> */
+                        </script>
+                    <!-- End GTranslate-->
                     </div>
                 </div>
             </div>
