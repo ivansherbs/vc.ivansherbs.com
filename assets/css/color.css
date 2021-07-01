@@ -39,7 +39,6 @@ aside.sidebar .tags ul li a,
 .btn-theme.btn-colord:before,
 .background-withcolor,
 .foxapp-header.sticky,
-.foxapp-header .dropdown-menu .dropdown-item:hover,
 .foxapp-header .dropdown-menu .dropdown-item.active,
 .clients-testimonial .testimonial-slider .item .client-testimonial,
 .clients-testimonial .testimonial-slider .slick-dots li.slick-active button,
@@ -58,6 +57,11 @@ aside.sidebar .gray-panel h3:after {
         background: #3c83b8;
     }
 }
+
+.foxapp-header .dropdown-menu .dropdown-item:hover{
+    background:#af5da4;
+}
+
 
 a,
 .btn-white,
