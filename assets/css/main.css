@@ -838,7 +838,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .other-features .other-features-slider .item.slick-center {
-    opacity: 1;
+    opacity: ;
 }
 
 .other-features .other-features-slider .item span {
@@ -851,11 +851,11 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .other-features .other-features-slider .item h4 {
-    font-size: 28px;
+    font-size: 10px;
     margin: 150px 18px;
     text-align: left;
     font-weight: bold;
-    text-shadow: 1px 1px 7px black;
+    text-shadow: 2px 2px 2px red;
 }
 
 .other-features .other-features-slider .item p {
@@ -1128,6 +1128,7 @@ footer .subscribe .subscribe-form-2 .form-group {
     background: #fff;
     border-radius: 15px;
     margin-bottom: 1em;
+    font-weight: bold
 }
 
 .fun-facts .fact-box .lnr {
@@ -1142,6 +1143,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 
 .fun-facts .fact-box h6 {
     font-size: 25px;
+        font-weight: bold
 }
 
 /*------------------------------
